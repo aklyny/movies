@@ -15,7 +15,7 @@ function App() {
       setMovies(movie.results)
     })
   },[])
-
+//onSubmit form
   const handleSubmit =(e)=>{
     e.preventDefault()
 
